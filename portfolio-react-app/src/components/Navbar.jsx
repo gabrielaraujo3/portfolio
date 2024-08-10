@@ -1,7 +1,6 @@
-import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
-import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import React, {useState} from 'react';
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaWhatsapp} from 'react-icons/fa';
+import {HiOutlineMail} from 'react-icons/hi';
 import Logo from '../assets/logo.png';
 import {Link} from 'react-scroll';
 
@@ -12,33 +11,35 @@ const Navbar = () => {
   return (
     <div className='fixed-w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <img src={Logo} alt='Logo' style={{width:'50px'}} />
+        <a href='http://localhost:3000'>
+          <img src={Logo} alt='Logo' style={{width:'50px'}}/>
+        </a>
       </div>
 
       {/* menu */}
         <ul className='hidden md:flex'>
           <li>
-            <Link to="home" smooth={true} duration={500} >
+            <Link to='home' smooth={true} duration={500} >
             Home
             </Link>
           </li>
           <li>
-            <Link to="about" smooth={true} duration={500} >
+            <Link to='about' smooth={true} duration={500} >
             About
             </Link>
           </li>
           <li>
-            <Link to="skills" smooth={true} duration={500} >
+            <Link to='skills' smooth={true} duration={500} >
             Skills
             </Link>
           </li>
           <li>
-            <Link to="work" smooth={true} duration={500} >
+            <Link to='work' smooth={true} duration={500} >
             Work
             </Link>
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={500} >
+            <Link to='contact' smooth={true} duration={500} >
             Contact
             </Link>
           </li>
@@ -82,23 +83,23 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a className='flex justify-between items-center w-full text-gray-300'>
+            <a href='https://www.linkedin.com/in/gabriel-araujo-63153425b' className='flex justify-between items-center w-full text-gray-300'>
             Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a className='flex justify-between items-center w-full text-gray-300'>
+            <a href='https://github.com/gabrielaraujo3' className='flex justify-between items-center w-full text-gray-300'>
             Github <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-            <a className='flex justify-between items-center w-full text-gray-300'>
+            <a href='mailto:araujog388+portfolio@gmail.com?subject=Professional Opportunity&body=Hello, I visited your portfolio and would like to discuss an opportunity with you. Are you interested?' className='flex justify-between items-center w-full text-gray-300'>
             Email <HiOutlineMail size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a className='flex justify-between items-center w-full text-gray-300'>
-              Resume <BsFillPersonLinesFill size={30} />
+            <a href='https://wa.me/+5511951862903?text=Hello,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20opportunity%20with%20you.%20Are%20you%20interested?' className='flex justify-between items-center w-full text-gray-300'>
+              Whatsapp <FaWhatsapp size={30} />
             </a>
           </li>
         </ul>
