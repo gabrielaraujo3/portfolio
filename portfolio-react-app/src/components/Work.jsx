@@ -20,7 +20,7 @@ const Work = () => {
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover effects */}
-            <div className='opacity-8 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
               </span>
@@ -40,7 +40,7 @@ const Work = () => {
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover effects */}
-            <div className='opacity-8 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
               </span>
@@ -60,7 +60,7 @@ const Work = () => {
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover effects */}
-            <div className='opacity-8 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
               </span>
@@ -80,7 +80,7 @@ const Work = () => {
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover effects */}
-            <div className='opacity-8 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
               </span>
@@ -100,7 +100,7 @@ const Work = () => {
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover effects */}
-            <div className='opacity-8 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
               </span>
@@ -120,7 +120,7 @@ const Work = () => {
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover effects */}
-            <div className='opacity-8 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
               </span>
@@ -131,12 +131,10 @@ const Work = () => {
                 <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold tex-lg'>Code</button>
                 </a>
-
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   )
