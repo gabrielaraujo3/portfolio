@@ -12,7 +12,7 @@ function ScrollPage() {
   window.addEventListener('scroll', getPageYAfterScroll);
 
   return (
-    <div className='fixed bottom-2 right-4'> {pageYPosition > 900 &&
+    <div className='fixed bottom-2 right-4'> {pageYPosition > 700 &&
       <button onClick={animateScroll.scrollToTop} className='text-[#0a192f] group border-2 px-6 py-3 my-2 flex items-center border-[#51c9c7] bg-[#51c9c7] hover:bg-white hover:border-white rounded-lg'>
         <HiArrowNarrowUp />
       </button>
