@@ -92,12 +92,12 @@ const Navbar = () => {
             Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3e7569]'>
             <a href='mailto:araujog388+portfolio@gmail.com?subject=Professional Opportunity&body=Hello, I visited your portfolio and would like to discuss an opportunity with you. Are you interested?' className='flex justify-between items-center w-full text-gray-300'>
             Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#25D366]'>
             <a href='https://wa.me/+5511951862903?text=Hello,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20opportunity%20with%20you.%20Are%20you%20interested?' className='flex justify-between items-center w-full text-gray-300'>
               Whatsapp <FaWhatsapp size={30} />
             </a>
