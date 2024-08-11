@@ -18,12 +18,10 @@ const About = () => {
               <p>Hi. I'm Gabriel, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aut minima quisquam fugit ea necessitatibus minus atque quod a,
-                vero dolore maxime consequuntur at nisi ipsa cum dignissimos
-                reiciendis optio, illum corrupti? Est neque dolorum nemo,
-                repudiandae eaque debitis, temporibus magni doloremque
-                cupiditate ab sed consectetur deserunt vel sequi nam iste!</p>
+              <p>I am currently a computer science student with a strong interest 
+                in the IT field. Actively seeking my first opportunity in the industry, 
+                I don’t have any specific language, frameworks, or technologies that 
+                I’m attached to (except for my Linux 😉); I find all of them intriguing.</p>
             </div>
           </div>
         </div>
