@@ -23,7 +23,7 @@ const Contact = () => {
         <div className='flex mb-2 justify-center items-center text-[#0a192f]'>
           <ul className='flex'>
             <li className='py-3 text-4xl mx-2 rounded-[25%] bg-gray-300 hover:bg-[#51c9c7] hover:text-gray-300 transition duration-500'>
-              <a href='https://www.linkedin.com/in/gabriel-araujo-63153425b'>
+              <a href='https://www.linkedin.com/in/gabrielaraujopro'>
                 <FaLinkedin size={25} />
               </a>
             </li>
