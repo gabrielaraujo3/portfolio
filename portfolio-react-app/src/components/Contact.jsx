@@ -48,7 +48,7 @@ const Contact = () => {
         <div className='flex justify-center text-gray-300'>
           <ul>
             <li className='flex justify-center items-center space-x-2'>
-              <p>Make with</p>
+              <p>Made with</p>
               <FaReact /> <RiTailwindCssFill />
             </li>
             <li className='flex justify-center items-center space-x-2'>
