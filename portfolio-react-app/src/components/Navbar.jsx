@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='fixed-w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <a href='http://localhost:3000'>
+        <a href='http://gabrielaraujo.me'>
           <img src={Logo} alt='Logo' style={{width:'50px'}}/>
         </a>
       </div>
